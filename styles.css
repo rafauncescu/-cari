@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagină HTML cu Text și Poză</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: pink;
+        }
+        h1 {
+            color: purple;
+        }
+        img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Will You Be My Valentine? (friends edition)</h1>
+    <p>Mă bucur să te am în viața mea și de când ești tu dodo mi-am recăpătat sclipirea. Chiar dacă uneori mai greșim, este foarte important pentru mine să văd cum încercăm de fiecare dată să reparam lucrurile. I love you sooooo much! P.S. Ești o binecuvântare de la Domnul adusă în viața mea si aș face orice pentru tine dodo mic.</p>
+    <img src="cari.jpeg" alt="my love">
+    
+    <h2>So, Will You Be My Valentine?</h2>
+    <div class="button-container">
+        <button onclick="alert('Ai ales YES!')">YES</button>
+        <button onclick="alert('Ai ales NO!')">NO</button>
+    </div>
+</body>
+</html>
